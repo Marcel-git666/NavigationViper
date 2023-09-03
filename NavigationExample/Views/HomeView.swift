@@ -16,7 +16,7 @@ struct HomeView: View {
                 .padding()
                 .textFieldStyle(.roundedBorder)
             Button("Generate greating") {
-                presenter.generteGreeting(for: name)
+                presenter.generateGreeting(for: name)
             }
             .padding()
             .foregroundColor(.white)

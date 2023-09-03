@@ -16,7 +16,7 @@ class GreetingPresenter: ObservableObject {
         self.view = view
         self.interactor = interactor
     }
-    func generteGreeting(for name: String) {
+    func generateGreeting(for name: String) {
         interactor.generateGreeting(for: name) { [weak self] result in
             switch result {
             case .success(let greeting): self?.greeting = greeting
