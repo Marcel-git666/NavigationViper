@@ -11,6 +11,7 @@ class Router: ObservableObject {
     enum Route {
         case home
         case details
+        case login
     }
     @Published var currentRoute: Route = .home
     public func navigate(to route: Route) {

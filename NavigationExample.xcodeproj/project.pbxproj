@@ -17,6 +17,8 @@
 		1F0BAF072AA2849D0037FAB0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BAF062AA2849D0037FAB0 /* Presenter.swift */; };
 		1F0BAF0A2AA373630037FAB0 /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BAF092AA373630037FAB0 /* GreetingPresenter.swift */; };
 		1F0BAF0C2AA3736E0037FAB0 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BAF0B2AA3736E0037FAB0 /* Interactor.swift */; };
+		1FFF97D02AB2E4A800F075D3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF97CF2AB2E4A800F075D3 /* UserInfo.swift */; };
+		1FFF97D22AB781BE00F075D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF97D12AB781BE00F075D3 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		1F0BAF062AA2849D0037FAB0 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		1F0BAF092AA373630037FAB0 /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
 		1F0BAF0B2AA3736E0037FAB0 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		1FFF97CF2AB2E4A800F075D3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1FFF97D12AB781BE00F075D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 				1F0BAEF42AA275AD0037FAB0 /* Assets.xcassets */,
 				1F0BAEF62AA275AD0037FAB0 /* Preview Content */,
 				1F0BAF062AA2849D0037FAB0 /* Presenter.swift */,
+				1FFF97CF2AB2E4A800F075D3 /* UserInfo.swift */,
 			);
 			path = NavigationExample;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				1F0BAEF22AA275AB0037FAB0 /* ContentView.swift */,
 				1F0BAF002AA275ED0037FAB0 /* DetailView.swift */,
 				1F0BAF022AA275F70037FAB0 /* HomeView.swift */,
+				1FFF97D12AB781BE00F075D3 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 				1F0BAF052AA276080037FAB0 /* Router.swift in Sources */,
 				1F0BAF012AA275ED0037FAB0 /* DetailView.swift in Sources */,
 				1F0BAF0C2AA3736E0037FAB0 /* Interactor.swift in Sources */,
+				1FFF97D02AB2E4A800F075D3 /* UserInfo.swift in Sources */,
+				1FFF97D22AB781BE00F075D3 /* LoginView.swift in Sources */,
 				1F0BAEF12AA275AB0037FAB0 /* NavigationExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

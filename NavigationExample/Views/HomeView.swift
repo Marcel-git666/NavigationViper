@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject var userInfo: UserInfo
     @State private var name: String = ""
     @ObservedObject var presenter: GreetingPresenter
     var body: some View {
         VStack {
+            Text("Logged in as user:")
             TextField("Name", text: $name)
                 .padding()
                 .textFieldStyle(.roundedBorder)
@@ -27,11 +29,13 @@ struct HomeView: View {
                 .frame(width: 200, height: 50)
                 .border(.gray, width: 1)
         }
+        
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(presenter: GreetingPresenter(interactor: Interactor()))
+        let userInfo = UserInfo()
+        HomeView(presenter: GreetingPresenter(interactor: Interactor())).environmentObject(userInfo)
     }
 }

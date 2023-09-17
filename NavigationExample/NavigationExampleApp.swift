@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct NavigationExampleApp: App {
+    @StateObject var userInfo = UserInfo()
     var body: some Scene {
         WindowGroup {
             ContentView()
